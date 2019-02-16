@@ -39,6 +39,7 @@ app.use('/api', api);
 
 app.use(express.static(path.join(__dirname, 'build')));
 
+app.use('/', express.static(path.join(__dirname, 'build')));
 app.use('/home', express.static(path.join(__dirname, 'build')));
 app.use('/session', express.static(path.join(__dirname, 'build')));
 app.use('/teletalk', express.static(path.join(__dirname, 'build')));
