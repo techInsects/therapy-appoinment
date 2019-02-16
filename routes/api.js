@@ -1,8 +1,8 @@
 'use strict';
 var express = require('express');
 var router = express.Router();
-var User = require('../models/User');
-var Doctor = require('../models/Doctor');
+var User = require('../models/user');
+var Doctor = require('../models/doctor');
 var patient = require('../models/patient')
 var jwt = require('jsonwebtoken');
 var ObjectId = require('mongodb').ObjectID;
